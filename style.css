@@ -1,0 +1,119 @@
+body {
+    font-family: "Calibri", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    background-color: #626b88ff;
+    color: #ffffffff;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0;
+    line-height: ;
+    font-weight: 900;
+    text-align: center;
+    border: ;
+    background-color: ;
+}
+
+
+header p,
+header h6 {
+    font-family: "Calibri", sans-serif;
+    font-weight: 300;
+    margin: 5px 0;
+    letter-spacing: 2pt;
+    font-size: 20px;
+
+}
+
+header a {
+    color: #ffe600ff;
+}
+
+/* MAIN CONTENT */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* SECTION HEADINGS */
+section h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #626b88ff;
+
+}
+
+/* JOB TITLE & DATE(S) */
+.position {
+    font-weight: 400;
+    margin: 0;
+}
+
+/*
+      .date {
+        margin: 0;
+        font-style: 300;
+      }
+*/
+
+/* LI BULLET POINTS */
+.bullet-points {
+    list-style: #626b88ff;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
+/* SKILLS */
+section ul {
+    /*        border: 1px solid #414976;  */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+section li {
+    padding: 5px 10px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    border-blck-color: #000000;
+    border-radius: 5px;
+    background-color: #f2f2f236;
+}
+
+/* EDUCATION */
+.degree {
+    font-weight: 400;
+    color: #000000;
+    margin: 0;
+}
+
+.date {
+    color: #009369;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+hr {
+    border: 1px solid #2bb90e;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+}
